@@ -8,5 +8,5 @@ r.recvuntil('lets get helloworld for bof')
 r.sendline(payload)
 
 
-print r.recv()
-print r.recv()
+print(r.recv())
+print(r.recv())
