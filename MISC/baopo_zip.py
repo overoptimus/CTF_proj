@@ -1,3 +1,11 @@
+'''
+@Description: 
+@Version: 2.0
+@Author: 0pt1mus
+@Date: 2020-02-18 11:55:04
+@LastEditors: 0pt1mus
+@LastEditTime: 2020-04-26 11:58:56
+'''
 import zipfile
 import os
 
@@ -5,7 +13,7 @@ import os
 def extractFile(zFile, password):
     try:
         zFile.extractall(path=os.getcwd(), pwd=password)
-    except Exception as e:
+    except Exception:
         return False
     else:
         return True
