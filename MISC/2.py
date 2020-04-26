@@ -3,6 +3,7 @@ def is_number(a):
         float(a)
         return True
     except Exception as e:
+        print(e)
         return False
 
 
