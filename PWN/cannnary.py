@@ -1,4 +1,4 @@
-# _*_ codingutf-8 _*_
+# _*_ coding:utf-8 _*_
 
 '''
 CXY_CTF     PWN第二题
