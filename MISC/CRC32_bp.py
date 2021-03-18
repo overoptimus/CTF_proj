@@ -2,7 +2,7 @@ from zlib import crc32
 import random
 
 char = '0123456789'
-crc32_ = 'bacab29e'
+crc32_ = 'F678BB78'
 
 
 def crc32_f(data):
